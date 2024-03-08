@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 <div align="center">
-    <img src="/app/assets/images/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
+    <img src="/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
   <br/>
   <h3><b>Hello Rails App - Back-End</b></h3>
 </div>

@@ -29,7 +29,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# gem 'rack-cors', '~> 0.4.0'
+gem 'rack-cors'
 
 gem 'active_model_serializers', '~> 0.10.2'
 
