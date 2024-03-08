@@ -35,7 +35,7 @@ Back-end application name: hello-rails-back-end-2
   link: https://github.com/jcmunav63/hello-rails-back-end-2.git
 
 Front-end application name: hello-react-front-end-2
-  link: https://github.com/jcmunav63/hello-rails-front-end-2.git
+  link: https://github.com/jcmunav63/hello-react-front-end-2.git
 
 ## 🛠 Built With <a name="built-with"></a>
 
