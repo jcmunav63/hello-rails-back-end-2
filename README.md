@@ -32,10 +32,10 @@
 The 'Hello Rails Back-End' App is a basic back-end application that implements a 'Hello World', random message, API endpoint to be consumed by a complementary application developed with React.js and Redux (front-end).
 
 Back-end application name: hello-rails-back-end-2
-  link: https://github.com/jcmunav63/hello-rails-back-end-2
+  link: https://github.com/jcmunav63/hello-rails-back-end-2.git
 
 Front-end application name: hello-react-front-end-2
-  link: 
+  link: https://github.com/jcmunav63/hello-rails-front-end-2.git
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,7 +76,7 @@ $ gem install rails
 
 ```sh
   cd my-folder
-  git clone https://github.com/jcmunav63/git@github.com:jcmunav63/hello-world-rails-and-react-1.git
+  git clone https://github.com/jcmunav63/hello-rails-back-end-2.git
 ```
 
 ### Install
@@ -99,7 +99,7 @@ Start the Ruby on Rails web server (Puma server) typing the following command...
 
 ### Check linters
 
-* Install the Rubocop and Stylelint linters.
+* Install the Rubocop linters checker.
 
 Install the Rubocop linters checker using the following steps...
 - First add the following code to the Gem file:
@@ -114,12 +114,6 @@ bundle install
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
-Install Stylelint linters checker using the following command...
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-- Remember to copy the .stylelintrc.json file to the root directory.
-
 - Copy the linters.yml file inside of path .github/workflows
 
 
@@ -128,11 +122,6 @@ To run LINTERS, run the following command:
 Run the following command for Ruby code...
 ```sh
 rubocop
-```
-
-Run the following command for CSS code...
-```sh
-npx stylelint "**/*.{css,scss}"
 ```
 
 * Unit, request, and integration tests will be developed on another stage.
@@ -178,7 +167,7 @@ I would like to thank all my colleagues, who inspire me to do my best everyday.
 
 **Did you create this project from scratch?**
 
-  - It is a simple Ruby on Rails project on the backend with connection to React.js on the frontend. It uses only one repo, by means of the Webpack JS bundler and the jsbundling-rails gem.
+  - It is a simple Ruby on Rails project on the backend with connection to React.js on the frontend. It uses two separate repos, this one for the back-end (Ruby on Rails), and another repor for the front-end (React & Redux).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
