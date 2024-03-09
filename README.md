@@ -48,7 +48,7 @@ Front-end application name: hello-react-front-end-2
   </ul>
 
 ### Key Features <a name="key-features"></a>
-- **Set up a Ruby on Rails project together with React.js as the front-end.**
+- **Set up a Ruby on Rails API project for connecting to a separate React.js & Redux app as the front-end.**
 - **Set up linters using Stylelint and Rubocop**
 - **Connect the Rails project to a PostgreSQL database.**
 - **Implement an API endpoint to display a random 'Hello World' message in JSON format.**
@@ -65,7 +65,7 @@ In order to run this project you need:
 
 [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-[Set Up Rails](https://www.ruby-lang.org/en/documentation/installation/)
+[Set Up Rails](https://guides.rubyonrails.org/)
 
 Prerequisites: Ruby, Ruby Development Kit (for Windows), Ruby Gems packaging system, and PostgreSQL database server. Run the following commands...
 ```sh
@@ -81,7 +81,7 @@ $ gem install rails
 
 ### Install
 
-This project requires the following dependencies: the Ruby interpreter, the Gem package manager, the Ruby on Rails web framework, a PostgreSQL database server, the Webpack JS module bundler, the jsbundling-rails gem, and two linters checkers: RuboCop (Ruby) and Stylelint (CSS styles).
+This project requires the following dependencies: the Ruby interpreter, the Gem package manager, the Ruby on Rails web framework, a PostgreSQL database server, and one linters checkers: RuboCop (Ruby). The Stylelint linters checker is not installed because this is an api-only rails app.
 
 ```sh
 bundle install
@@ -167,7 +167,7 @@ I would like to thank all my colleagues, who inspire me to do my best everyday.
 
 **Did you create this project from scratch?**
 
-  - It is a simple Ruby on Rails project on the backend with connection to React.js on the frontend. It uses two separate repos, this one for the back-end (Ruby on Rails), and another repor for the front-end (React & Redux).
+  - It is a simple Ruby on Rails API project on the backend for connecting to a separate app on the frontend. It uses two separate repos, this one for the back-end (Ruby on Rails), and another repo for the front-end (React & Redux).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
