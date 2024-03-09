@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 <div align="center">
-    <img src="/app/assets/images/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
+    <img src="/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
   <br/>
   <h3><b>Hello Rails App - Back-End</b></h3>
 </div>
@@ -32,10 +32,10 @@
 The 'Hello Rails Back-End' App is a basic back-end application that implements a 'Hello World', random message, API endpoint to be consumed by a complementary application developed with React.js and Redux (front-end).
 
 Back-end application name: hello-rails-back-end-2
-  link: https://github.com/jcmunav63/hello-rails-back-end-2
+  link: https://github.com/jcmunav63/hello-rails-back-end-2.git
 
 Front-end application name: hello-react-front-end-2
-  link: 
+  link: https://github.com/jcmunav63/hello-react-front-end-2.git
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +48,7 @@ Front-end application name: hello-react-front-end-2
   </ul>
 
 ### Key Features <a name="key-features"></a>
-- **Set up a Ruby on Rails project together with React.js as the front-end.**
+- **Set up a Ruby on Rails API project for connecting to a separate React.js & Redux app as the front-end.**
 - **Set up linters using Stylelint and Rubocop**
 - **Connect the Rails project to a PostgreSQL database.**
 - **Implement an API endpoint to display a random 'Hello World' message in JSON format.**
@@ -65,7 +65,7 @@ In order to run this project you need:
 
 [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-[Set Up Rails](https://www.ruby-lang.org/en/documentation/installation/)
+[Set Up Rails](https://guides.rubyonrails.org/)
 
 Prerequisites: Ruby, Ruby Development Kit (for Windows), Ruby Gems packaging system, and PostgreSQL database server. Run the following commands...
 ```sh
@@ -76,12 +76,12 @@ $ gem install rails
 
 ```sh
   cd my-folder
-  git clone https://github.com/jcmunav63/git@github.com:jcmunav63/hello-world-rails-and-react-1.git
+  git clone https://github.com/jcmunav63/hello-rails-back-end-2.git
 ```
 
 ### Install
 
-This project requires the following dependencies: the Ruby interpreter, the Gem package manager, the Ruby on Rails web framework, a PostgreSQL database server, the Webpack JS module bundler, the jsbundling-rails gem, and two linters checkers: RuboCop (Ruby) and Stylelint (CSS styles).
+This project requires the following dependencies: the Ruby interpreter, the Gem package manager, the Ruby on Rails web framework, a PostgreSQL database server, and one linters checkers: RuboCop (Ruby). The Stylelint linters checker is not installed because this is an api-only rails app.
 
 ```sh
 bundle install
@@ -99,7 +99,7 @@ Start the Ruby on Rails web server (Puma server) typing the following command...
 
 ### Check linters
 
-* Install the Rubocop and Stylelint linters.
+* Install the Rubocop linters checker.
 
 Install the Rubocop linters checker using the following steps...
 - First add the following code to the Gem file:
@@ -114,12 +114,6 @@ bundle install
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
-Install Stylelint linters checker using the following command...
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-- Remember to copy the .stylelintrc.json file to the root directory.
-
 - Copy the linters.yml file inside of path .github/workflows
 
 
@@ -128,11 +122,6 @@ To run LINTERS, run the following command:
 Run the following command for Ruby code...
 ```sh
 rubocop
-```
-
-Run the following command for CSS code...
-```sh
-npx stylelint "**/*.{css,scss}"
 ```
 
 * Unit, request, and integration tests will be developed on another stage.
@@ -178,7 +167,7 @@ I would like to thank all my colleagues, who inspire me to do my best everyday.
 
 **Did you create this project from scratch?**
 
-  - It is a simple Ruby on Rails project on the backend with connection to React.js on the frontend. It uses only one repo, by means of the Webpack JS bundler and the jsbundling-rails gem.
+  - It is a simple Ruby on Rails API project on the backend for connecting to a separate app on the frontend. It uses two separate repos, this one for the back-end (Ruby on Rails), and another repo for the front-end (React & Redux).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
